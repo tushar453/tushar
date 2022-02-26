@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medicare</title>
+</head>
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+/*css Reset*/
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: opx;
+    padding: 0px;
+    
+    background: url(img/lake-gd7eeab2d3_1920.jpg);
+    color: white;
+    height: 950px;
+   
+} 
+.left{
+
+    position: absolute;
+    left: 34pxpx;
+    display: inline-block;
+    display: inline-block;
+    /*border: 2px solid red;*/
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+
+}
+
+.left img{
+    width: 150px;
+    filter: saturate(150%);
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    font-size: 20px;
+   color: black;
+    display: block;
+    width: 50%;
+    margin: 18px auto;
+    /*border: 2px solid greenyellow;*/
+    
+
+}
+.right{
+    position: fixed;
+    right: 34px;
+    top: 18px;
+    display: inline-block;
+   /* border: 2px solid green;*/
+}
+.navbar{
+    display: inline-block;
+    /*position: sticky;*/
+}
+.navbar li{
+    display: inline-block;
+    color: rgb(51, 36, 8);
+    font-size: 25px;
+}
+.navbar li a{
+    color:rgb(22, 21, 21);
+    text-decoration: none;
+    padding: 34px 23px;
+  }  
+
+  .navbar li a:hover, .navbar li a.active{
+text-decoration: ;
+color: yellowgreen;
+}  
+.btn{
+    margin: 0px 9px;
+  color: black;
+  background-color: rgb(231, 204, 204);
+  border-radius: 10px;
+  padding: 3px 4px;
+  border: 2px solid gray;
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+.btn:hover{
+  background-color: rgb(198, 230, 150);
+}
+   .container{
+       color: black;
+      /* border: 2px solid;*/
+       width: 33%;
+       border-radius: 15px;
+       border-color:black;
+       margin: 100px 50px;
+       padding-top: 4px;
+      padding-left: 15px;
+      padding-bottom: 15px;
+      border-width: 3px;
+   }
+   .form-group input{
+       /*font-size: ;*/
+       margin:11px auto ;
+       text-align: center;
+       display: block;
+       width: 455px;
+       padding: 6px;
+       border: 2px solid black;
+       border-radius: 10px;
+       font-size: 18px;
+       font-family: monospace;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 23%;
+}
+.buttn{
+    display: inline-flex;
+    height: 20px;
+    padding: 1px;
+    background-color: rgb(231, 204, 204);  
+    border-radius: 10px;
+    /*position: absolute;*/
+    right: 40px;
+    top: 600px;
+    bottom: 400px;
+    cursor: pointer;
+    position: sticky;
+
+}
+.buttn:hover{
+    background-color: yellowgreen;
+}
+
+
+
+ 
+      
+
+
+
+   
+   
+
+    
+  
+    
+
+
+</style>
+<body>
+    
+    <button type="button" class="buttn"  >
+        <span class="button__text"> Feedback</span>
+        <span class="button__icon">
+            <ion-icon name="chatbubble-ellipses-sharp"></ion-icon>
+        </span>
+    </button>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <header class="header">
+        <!--left box for logo-->
+        
+        <div class="left">
+           <img src="img/logo.jpeg" alt="">
+         
+               
+           
+        </div>
+<!--mid box for nav-->
+        <div class="mid">
+            <ul class="navbar">
+                
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us </a></li>
+                <li><a href="#">Our services</a></li>
+                <li><a href="#">Chat With Us</a></li>
+            </ul>
+            
+        </div>
+<!--right box for buttons-->
+        <div class="right">
+<Button class="btn">Call Us</Button><Button class="btn">Email us</Button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            FILL YOUR DETAILS
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+                <text></text>
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Emter Your Age">
+                <text></text>
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Contact No.">
+                <text></text>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+                <text></text>
+            </div>
+            <button class="btn">Submit</button>
+
+
+
+        </form>
+    </div>
+</body>
+</html>

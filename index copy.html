@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback page</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    .wrap{
+        width: 800px;
+        height: 700px;
+        
+        margin: 15px auto;
+        color: white;
+        font-size: 30pxpx;
+        padding: 10px;
+
+    }
+    h1{
+        font-size: 70px;
+        color: black;
+        text-align: center;
+        border-bottom: 5px solid;
+    }
+    .btn:hover{ background-color: yellowgreen;
+    cursor: pointer;}
+    table{
+        font-size: 25px;
+        display: inline-block;
+    }
+    .txt{
+        width: 400px;
+        height: 50px;
+        border-radius: 8px;
+    }
+    .txt:hover{
+        background-color: rgb(215, 233, 179);
+        cursor: pointer;
+    }
+    
+    .tks{
+        color: black;
+    }
+    
+   
+    
+    
+    
+  
+</style>
+
+<body>
+    
+    <div class="left"> 
+        <img src="img/medicare.webp" alt="">
+    </div>
+    <div class="wrap">
+        <table>
+            <form action="" method="">
+                <h1>  Feedback Form</h1>
+                
+              <tr>
+                  <td colspan="2" class="tks">
+                      <label >
+                          How do you Rate your overall experience
+                         <br/>
+
+                          <input type="radio" name="rate" value="bad">Bad
+                          <input type="radio" name="rate" value="average">Average
+                          <input type="radio" name="rate" value="good">Good
+                          
+                      </label>
+                  </td>
+              </tr> 
+              <tr>
+                 <td><label> Full Name</label>
+                 <br/>
+                 <input type="text" name="Full Name" class="txt">
+                  </td>  
+              </tr>  
+              <tr>
+                  <td >
+                      <label>
+                          Email
+                      </label>
+                   <br/>
+                      <input type="email" name="Email" class="txt">
+                  </td>
+              </tr> 
+              <tr>
+                <td >
+                    <label>
+                    
+                        Age
+                    </label>
+                    <br/>
+                    <input type="text" name="Age" class="txt"> 
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    <label>
+                        Phone
+                    </label>
+                    <br/>
+                    <input type="text" name="Phone" class="txt">
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    <label>
+                        Message
+                    </label>
+                    <br/>
+                    <textarea name="mytext" id="" cols="30" rows="10"> </textarea>
+                 </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <button class="btn" type="submit"> submit
+
+                        </button>
+                    </td>
+                        
+                       
+                    
+                </tr> 
+                   
+                
+            </form>
+        </table>
+    </div>
+    
+</body>
+</html>
